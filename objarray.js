@@ -13,5 +13,8 @@ const web = {
 }
 
 const enlaceYt = web.redesSociales.youtube.enlace
+console.log(enlaceYt);
 
-console.log(enlaceYt)
+const {enlace, nombre} = web.redesSociales.youtube //destructuring 
+console.log (enlace);
+console.log (nombre)
