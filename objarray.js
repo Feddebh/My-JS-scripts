@@ -1,4 +1,5 @@
 const web = {
+    
     nombre: "The odin project",
     links: {
         enlace: "www.theodinproject.com"
@@ -10,4 +11,7 @@ const web = {
         }
     }
 }
-console.log(web.redesSociales.youtube.enlace)
+
+const enlaceYt = web.redesSociales.youtube.enlace
+
+console.log(enlaceYt)
